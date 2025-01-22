@@ -28,7 +28,7 @@ jobs:
         docker build -t soracel85/docker-graphql:0.0.1 .
     - name: Push Docker Image
       run:  | 
-        docker push -t soracel85/docker-graphql:0.0.1 .
+        docker push soracel85/docker-graphql:0.0.1
     
         
     # - name: Build the Docker image
